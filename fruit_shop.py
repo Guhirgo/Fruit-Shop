@@ -38,4 +38,4 @@ banana_cost = (BANANA_PRICE * banana_weight).quantize(
 )
 total_cost = apple_cost + banana_cost
 put_success(
-    f"Total cost: \nЯ'блука:\t{apple_cost}\t грн \nБанани:\t{banana_cost}\t грн \nЗагальна сума:\t{total_cost}\t грн")
+    f"Total cost: \nЯблука:\t{apple_cost}\t грн \nБанани:\t{banana_cost}\t грн \nЗагальна сума:\t{total_cost}\t грн")
